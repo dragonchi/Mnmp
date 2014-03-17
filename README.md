@@ -61,11 +61,6 @@ mysql:
 然后运行: ./mnmp.sh start | stop | restart 即可.
 推荐加到profile里面, 比如: echo "alias mnmp='/Users/你的路径/mnmp.sh'" >> ~/.bash_profile
 source ~/.bash_profile
-因为我不需要开机启动, 如果有需要开机启动的可以参考gist.github.com/mystix/3041577最下面的那几行.
-然后就可以直接: mnmp start 这样用了.
 
-phpmyadmin:(可选)
-下载: www.phpmyadmin.net/home_page/downloads.php
-解压到nginx的conf指定的目录, config.sample.inc.php重命名为config.inc.php, 修改$cfg['Servers'][$i]['AllowNoPassword'] = true;
-Ps: 如果phpmyadmin报错:The mcrypt extension is missing. 可以关掉mnmp, 执行下:brew install php54-mcrypt
-之后打开: http://dev.local:8080/phpmyadmin 应该就OK了.
+
+
