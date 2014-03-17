@@ -4,7 +4,7 @@ MNMP
 mac搭建NMP环境
 
 安装:
-把: https://github.com/kairyou/mac-bash-scripts的脚本下载下来.
+把: git@github.com:dragonchi/MNMP.git的脚本下载下来.
 安装前请确认安装了homebrew, 就不提了. 开始安装:
 bash切换到setup-mnmp.sh目录, 然后执行:sh setup-mnmp.sh 就等着自动安装吧.
 
